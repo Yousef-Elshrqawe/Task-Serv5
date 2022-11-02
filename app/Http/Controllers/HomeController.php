@@ -70,7 +70,7 @@ class HomeController extends Controller
             foreach($data as $row)
             {
                 $output .= '
-                <li><a class="dropdown-item" href="#">'.$row->country_name.'</a></li>
+                <li><a class="dropdown-item" href="#">'.$row->countryname.'</a></li>
                 ';
             }
             $output .= '</ul>';

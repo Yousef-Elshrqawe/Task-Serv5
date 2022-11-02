@@ -37,6 +37,8 @@
                         $('#countryList').html(data);
                     }
                 });
+            }else if(query == ''){
+                $('#countryList').fadeOut();
             }
         });
 
